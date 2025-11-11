@@ -6,7 +6,7 @@ This repository contains the official code for our EMNLP 2025 Main paper:
 
 ## 🚧 Code Release Notice
 
-Due to moving and attending the conference of Wen (First Author) over the past few months, the code is still being reorganized.  
+As Wen (the first author) has been moving and attending the conference over the past few months, the code is still under reorganization. 
 The code will be released **in November 2025**.  
 
 Thank you for your interest and recognition! 🙏  
