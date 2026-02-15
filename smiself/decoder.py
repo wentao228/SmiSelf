@@ -1,9 +1,9 @@
 import warnings
 from typing import List, Union, Tuple
 
-from selfies.compatibility import modernize_symbol
-from selfies.exceptions import DecoderError
-from selfies.grammar_rules import (
+from .compatibility import modernize_symbol
+from .exceptions import DecoderError
+from .grammar_rules import (
     get_index_from_selfies,
     next_atom_state,
     next_branch_state,
@@ -12,9 +12,9 @@ from selfies.grammar_rules import (
     process_branch_symbol,
     process_ring_symbol
 )
-from selfies.mol_graph import MolecularGraph, Attribution
-from selfies.utils.selfies_utils import split_selfies
-from selfies.utils.smiles_utils import mol_to_smiles
+from .mol_graph import MolecularGraph, Attribution
+from .utils.selfies_utils import split_selfies
+from .utils.smiles_utils import mol_to_smiles
 
 
 def decoder(

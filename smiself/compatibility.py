@@ -1,4 +1,4 @@
-from selfies.utils.smiles_utils import atom_to_smiles, smiles_to_atom
+from .utils.smiles_utils import atom_to_smiles, smiles_to_atom
 
 
 def modernize_symbol(symbol):

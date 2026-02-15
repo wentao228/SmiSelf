@@ -1,12 +1,12 @@
-from selfies.exceptions import EncoderError, SMILESParserError
-from selfies.grammar_rules import get_selfies_from_index
-from selfies.utils.smiles_utils import (
+from .exceptions import EncoderError, SMILESParserError
+from .grammar_rules import get_selfies_from_index
+from .utils.smiles_utils import (
     atom_to_smiles,
     bond_to_smiles,
     smiles_to_mol
 )
 
-from selfies.mol_graph import AttributionMap
+from .mol_graph import AttributionMap
 
 
 def encoder(smiles: str, strict: bool = True, attribute: bool = False) -> str:

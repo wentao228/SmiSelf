@@ -1,6 +1,6 @@
 from typing import Dict, List, Tuple, Union
 
-from selfies.utils.selfies_utils import len_selfies, split_selfies
+from .selfies_utils import len_selfies, split_selfies
 
 
 def selfies_to_encoding(

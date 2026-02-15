@@ -3,9 +3,9 @@ import itertools
 from typing import List, Optional, Union
 from dataclasses import dataclass, field
 
-from selfies.bond_constraints import get_bonding_capacity
-from selfies.constants import AROMATIC_VALENCES, VALENCE_ELECTRONS
-from selfies.utils.matching_utils import find_perfect_matching
+from .bond_constraints import get_bonding_capacity
+from .constants import AROMATIC_VALENCES, VALENCE_ELECTRONS
+from .utils.matching_utils import find_perfect_matching
 
 
 @dataclass

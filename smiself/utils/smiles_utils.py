@@ -3,9 +3,9 @@ import re
 from collections import deque
 from typing import Iterator, Optional, Tuple, Union, List
 
-from selfies.constants import AROMATIC_SUBSET, ELEMENTS, ORGANIC_SUBSET
-from selfies.exceptions import SMILESParserError
-from selfies.mol_graph import Atom, Attribution, \
+from ..constants import AROMATIC_SUBSET, ELEMENTS, ORGANIC_SUBSET
+from ..exceptions import SMILESParserError
+from ..mol_graph import Atom, Attribution, \
     AttributionMap, DirectedBond, MolecularGraph
 
 SMILES_BRACKETED_ATOM_PATTERN = re.compile(

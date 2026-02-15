@@ -3,14 +3,14 @@ import itertools
 import re
 from typing import Any, List, Optional, Tuple
 
-from selfies.constants import (
+from .constants import (
     ELEMENTS,
     INDEX_ALPHABET,
     INDEX_CODE,
     ORGANIC_SUBSET
 )
-from selfies.mol_graph import Atom
-from selfies.utils.smiles_utils import smiles_to_bond
+from .mol_graph import Atom
+from .utils.smiles_utils import smiles_to_bond
 
 
 def process_atom_symbol(symbol: str) -> Optional[Tuple[Any, Atom]]:
