@@ -2,7 +2,6 @@
 
 Official implementation of our EMNLP 2025 Main Conference paper:
 **How to Make Large Language Models Generate 100% Valid Molecules?**
-(The 2025 Conference on Empirical Methods in Natural Language Processing)
 
 ---
 
@@ -32,7 +31,7 @@ SmiSelf converts invalid SMILES into SELFIES using grammar-guided rules, then le
 ---
 
 <p align="center">
-   <img src="https://github.com/wentao228/SmiSelf/img/framework.png" alt="Overview of SmiSelf" width="666px">
+  <img src="img/framework.png" alt="Overview of SmiSelf" width="100%">
 </p>
 
 ---
